@@ -1,0 +1,13 @@
+<appian-plugin name="Excel Services" key="excelservice">
+
+	<plugin-info>
+		<description>Smart service used to convert excel into PDF document </description>
+		<vendor name="Low Code Minds" url="https://www.lowcodeminds.com" />
+		<version>1.0.0</version>
+		<application-version min="20.1" />
+	</plugin-info>
+
+	<smart-service name="Excel To Pdf Using Aspose" key="xltopdfusingaspose" class="excelservice.ExcelToPdf" />
+	<smart-service name="Excel To Pdf Using Spire" key="xltopdfusingspirexls" class="excelservice.ExcelToPdfUsingSpire" />
+
+</appian-plugin>
